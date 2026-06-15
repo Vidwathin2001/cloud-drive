@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: "http://13.48.30.209:5000/api",
+  baseURL: "https://cloud-drive-me.duckdns.org/api",
 });
 
 API.interceptors.request.use((req) => {
